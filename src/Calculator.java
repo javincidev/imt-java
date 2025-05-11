@@ -5,7 +5,7 @@ public class Calculator {
             throws java.io.IOException {
         int choice;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Добро пожаловать в Калкюлятор");
+        System.out.println("Добро пожаловать в Калькулятор");
         System.out.print("Введите первое значение: ");
         int fInput = scanner.nextInt();
 
