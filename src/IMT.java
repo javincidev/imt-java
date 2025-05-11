@@ -31,9 +31,10 @@ public class IMT {
                 System.out.println("Ваш ИМТ: " + formattedResult + ". Категория: " + category);
                 System.out.println("Хотите выйте? (y/n) ");
                 exit = scanner.next().charAt(0);
-
+                System.out.println(exit);
             }
-            while (exit == 'n');
+
+            while ((exit != 'n'));
 
         }catch (Exception e){
             System.out.println("Ошибка: введено некоректное значение.");
