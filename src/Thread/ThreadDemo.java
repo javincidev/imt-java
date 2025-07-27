@@ -12,7 +12,7 @@ class NewThread implements Runnable {
         try {
             for (int i = 5; i > 0; i--) {
                 System.out.println("Дочерный поток: " + i);
-                Thread.sleep(500);
+                Thread.sleep(1500);
             }
         }catch (InterruptedException e){
             System.out.println("Дочерный поток прерван.");
@@ -27,7 +27,7 @@ class ThreadDemo {
         try {
             for (int i = 5; i > 0; i--) {
                 System.out.println("Главный поток: " + i);
-                Thread.sleep(1000);
+                Thread.sleep(1500);
             }
         }catch (InterruptedException e){
             System.out.println("Главный поток прерван.");
